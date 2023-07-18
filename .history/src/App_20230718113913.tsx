@@ -482,7 +482,6 @@ function Main() {
               <Divider />
 
               <MenuList>
-                {/* 注释掉了NewChat功能更 */}
                 {/* <MenuItem onClick={handleCreateNewSession}>
                   <ListItemIcon>
                     <IconButton>

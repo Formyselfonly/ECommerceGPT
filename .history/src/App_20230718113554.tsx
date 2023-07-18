@@ -480,19 +480,18 @@ function Main() {
               </MenuList>
 
               <Divider />
-
               <MenuList>
-                {/* 注释掉了NewChat功能更 */}
-                {/* <MenuItem onClick={handleCreateNewSession}>
+                <MenuItem onClick={handleCreateNewSession}>
                   <ListItemIcon>
                     <IconButton>
                       <AddIcon fontSize="small" />
                     </IconButton>
                   </ListItemIcon>
-                  <ListItemText>{t("new chat")}</ListItemText>
+                  <ListItemText>{t("newasdasd chat")}</ListItemText>
                   <Typography variant="body2" color="text.secondary">
+                    {/* ⌘N */}
                   </Typography>
-                </MenuItem> */}
+                </MenuItem>
                 <MenuItem
                   onClick={() => {
                     setOpenSettingWindow(true);

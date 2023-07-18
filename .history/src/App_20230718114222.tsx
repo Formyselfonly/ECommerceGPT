@@ -457,7 +457,7 @@ function Main() {
                             store.switchCurrentSession(session);
                             textareaRef?.current?.focus();
                           }}
-                          deleteMe={() => store.deleteChatSession(session)}
+                          // deleteMe={() => store.deleteChatSession(session)}
                           copyMe={() => {
                             const newSession = createSession(
                               session.name + " copied"

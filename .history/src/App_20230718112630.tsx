@@ -482,8 +482,7 @@ function Main() {
               <Divider />
 
               <MenuList>
-                {/* 注释掉了NewChat功能更 */}
-                {/* <MenuItem onClick={handleCreateNewSession}>
+                <MenuItem onClick={handleCreateNewSession}>
                   <ListItemIcon>
                     <IconButton>
                       <AddIcon fontSize="small" />
@@ -491,8 +490,9 @@ function Main() {
                   </ListItemIcon>
                   <ListItemText>{t("new chat")}</ListItemText>
                   <Typography variant="body2" color="text.secondary">
+                    {/* ⌘N */}
                   </Typography>
-                </MenuItem> */}
+                </MenuItem>
                 <MenuItem
                   onClick={() => {
                     setOpenSettingWindow(true);
@@ -533,7 +533,7 @@ function Main() {
               sx={{
                 position: "absolute",
                 top: 0,
-                left: 0,
+                left: 10,
                 right: 0,
                 bottom: 0,
                 backgroundColor: "rgba(0, 0, 0, 0.3)",

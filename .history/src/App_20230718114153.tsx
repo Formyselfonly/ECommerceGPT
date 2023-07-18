@@ -451,7 +451,7 @@ function Main() {
                       <SortableItem key={session.id} id={session.id}>
                         <SessionItem
                           key={session.id}
-                          selected={store.currentSession.id === session.id}
+                          // selected={store.currentSession.id === session.id}
                           session={session}
                           switchMe={() => {
                             store.switchCurrentSession(session);

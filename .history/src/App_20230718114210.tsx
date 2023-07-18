@@ -453,10 +453,10 @@ function Main() {
                           key={session.id}
                           selected={store.currentSession.id === session.id}
                           session={session}
-                          switchMe={() => {
-                            store.switchCurrentSession(session);
-                            textareaRef?.current?.focus();
-                          }}
+                          // switchMe={() => {
+                          //   store.switchCurrentSession(session);
+                          //   textareaRef?.current?.focus();
+                          // }}
                           deleteMe={() => store.deleteChatSession(session)}
                           copyMe={() => {
                             const newSession = createSession(
