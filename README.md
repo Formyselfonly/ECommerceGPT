@@ -1,6 +1,10 @@
 ## This is ECommerce-GPT for u!
 
+This is the beautiful Ecommerce-GPT!
+
 ![image-20230719122756004](./index.png)
+
+I will give u some template in my link tutorial,and all you need to do is use it and replace some word!
 
 ![](./useshow.png)
 
