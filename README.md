@@ -1,10 +1,8 @@
 ## This is ECommerce-GPT for u!
 
+![image-20230719122756004](./index.png)
 
-
-![](./img/ecommerce.png)
-
-![](./img/ecommercecn.png)
+![](./useshow.png)
 
 ## How to use?
 
@@ -16,9 +14,16 @@
 
    [Get OPENAI API KEY](https://www.howtogeek.com/885918/how-to-get-an-openai-api-key/)
 
-   If you still don't know how to get it,contact me!
+   If you still don't know how to get your own key,contact me!
 
-4. Star for me!
+   Use your own APIKEY is for your safe,because
+   I don't want to save your history in my Key.
+
+4. Follow the step-by-step Tutorial link in every GPT(The tutorial will be done sone )
+
+   ![123123](./whereistutorial.png)
+
+5. Star&Support for me!
 
 ## Feedback
 
