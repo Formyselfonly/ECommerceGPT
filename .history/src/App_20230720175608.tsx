@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState, MutableRefObject } from "react";
 import Block from "./Block";
 import * as client from "./client";
 import SessionItem from "./SessionItem";
+import { Portal } from '@mui/base';
 import {
   Toolbar,
   Box,
@@ -67,7 +68,6 @@ import {
 } from "@dnd-kit/sortable";
 import { restrictToVerticalAxis } from "@dnd-kit/modifiers";
 import { SortableItem } from "./SortableItem";
-import { red } from "@mui/material/colors";
 
 function Main() {
   const { t } = useTranslation();
@@ -624,14 +624,9 @@ function Main() {
                 <Save />
               </IconButton>
             </Toolbar>
-
-
-                <div>
-                <Button href="https://doc.ecommerceai.club/" target="_blank" style={{color:'rgb(25, 118, 210)',fontSize:'20px',marginRight:'20px'}}>ECommerceGPT Tutorial</Button>
-              <Button href="https://learnprompting.org/docs/intro" target="_blank" style={{color:'rgb(25, 118, 210)',fontSize:'20px',marginRight:'20px'}}>Prompt Beginner Tutorial</Button>
-                </div>
-
-
+            <div>
+            <Portal></Portal>
+            </div>
             
             
             <List

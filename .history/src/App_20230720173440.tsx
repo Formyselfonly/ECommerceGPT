@@ -67,7 +67,6 @@ import {
 } from "@dnd-kit/sortable";
 import { restrictToVerticalAxis } from "@dnd-kit/modifiers";
 import { SortableItem } from "./SortableItem";
-import { red } from "@mui/material/colors";
 
 function Main() {
   const { t } = useTranslation();
@@ -568,22 +567,20 @@ function Main() {
               position: "relative",
             }}
           >
-            <Toolbar style={{ padding: "0 0px" }}>
+            <Toolbar style={{ padding: "0 10px" }}>
               <IconButton onClick={() => setShowMenu(!showMenu)}>
                 {!showMenu ? (
                   <img
                     src={icon}
                     style={{
-                      width: "35px",
-                      height: "35px",
+                      width: "30px",
+                      height: "30px",
                     }}
                   />
                 ) : (
-                  <MenuOpenIcon style={{ fontSize: "30px" }} />
+                  <MenuOpenIcon style={{ fontSize: "5px" }} />
                 )}
-                
               </IconButton>
-          
               <Typography
                 variant="h6"
                 color="inherit"
@@ -624,16 +621,6 @@ function Main() {
                 <Save />
               </IconButton>
             </Toolbar>
-
-
-                <div>
-                <Button href="https://doc.ecommerceai.club/" target="_blank" style={{color:'rgb(25, 118, 210)',fontSize:'20px',marginRight:'20px'}}>ECommerceGPT Tutorial</Button>
-              <Button href="https://learnprompting.org/docs/intro" target="_blank" style={{color:'rgb(25, 118, 210)',fontSize:'20px',marginRight:'20px'}}>Prompt Beginner Tutorial</Button>
-                </div>
-
-
-            
-            
             <List
               className="scroll"
               sx={{

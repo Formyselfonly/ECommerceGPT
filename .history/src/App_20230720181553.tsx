@@ -624,14 +624,15 @@ function Main() {
                 <Save />
               </IconButton>
             </Toolbar>
-
-
-                <div>
-                <Button href="https://doc.ecommerceai.club/" target="_blank" style={{color:'rgb(25, 118, 210)',fontSize:'20px',marginRight:'20px'}}>ECommerceGPT Tutorial</Button>
-              <Button href="https://learnprompting.org/docs/intro" target="_blank" style={{color:'rgb(25, 118, 210)',fontSize:'20px',marginRight:'20px'}}>Prompt Beginner Tutorial</Button>
-                </div>
-
-
+            <div>
+              Put your content here(调试开发中!)
+              <div>
+              <Button href="https://www.baidu.com" style={{color:red}}>ECommerceGPT Tutorial</Button>
+              <Button href="https://www.baidu.com">button2</Button>
+              <Button href="https://www.baidu.com">button3</Button>
+              <Button href="https://www.baidu.com">button4</Button>
+              </div>
+            </div>
             
             
             <List
