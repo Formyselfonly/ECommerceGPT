@@ -1,4 +1,4 @@
-## This is ECommerce-GPT for u!
+## This is [ECommerceGPT](http://web.ecommerceai.club/) for u!
 
 This is the beautiful Ecommerce-GPT!
 
@@ -10,7 +10,7 @@ I will give u some template in my link tutorial,and all you need to do is use it
 
 ## How to use?
 
-1. [Click it to ECommerce](http://ecommerceai.club/)
+1. [Click it to ECommerce](http://web.ecommerceai.club/)
 
 2. Open settings
 
