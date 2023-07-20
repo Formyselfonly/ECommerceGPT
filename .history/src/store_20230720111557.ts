@@ -131,7 +131,7 @@ export default function useStore() {
     }
 
     const [chatSessions, _setChatSessions] = useState<Session[]>([
-    createSession("YouTubeGPT","You are my Youtube ECommerce assistant ChatGPT!Preferably answer using markdown or tables","Click these short link to know how to easily use this amazing YoutubeGPT:https://doc.ecommerceai.club/youtubegpt"),
+    createSession("YouTube","You are my Youtube ECommerce assistant ChatGPT!Preferably answer using markdown or tables","Click these short link to know how to easily use this amazing YoutubeGPT:https://doc.ecommerceai.club/youtubegpt"),
     createSession("TikTokGPT","You are my TitTok ECommerce assistant ChatGPT!Preferably answer using markdown or tables","Click these short link to know how to easily use this amazing TikTokGPT:https://doc.ecommerceai.club/tiktokgpt"),
     createSession("AmazonGPT","You are my Amazon ECommerce assistant ChatGPT!Preferably answer using markdown or tables","Click these short link to know how to easily use this amazing AmazonGPT:https://doc.ecommerceai.club/amazongpt"),
     createSession("ShopeeGPT","You are my Shopee ECommerce assistant ChatGPT!Preferably answer using markdown or tables","Click these short link to know how to easily use this amazing ShopeeGPT:https://doc.ecommerceai.club/shopeegpt"),
