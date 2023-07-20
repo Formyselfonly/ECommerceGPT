@@ -16,6 +16,9 @@ I will give u some template in my link tutorial,and all you need to do is use it
 
 3. Put your OPENAI API KEY
 
+   You can don't provide it also,because i have already input a APIKEY,But i recommend u to get one.
+   If all people use one APIKEY,the response of GPT will be very slow
+
    [Get OPENAI API KEY](https://www.howtogeek.com/885918/how-to-get-an-openai-api-key/)
 
    If you still don't know how to get your own key,contact me!
