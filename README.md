@@ -29,6 +29,10 @@ I will give u some template in my link tutorial,and all you need to do is use it
 
 5. Star&Support for me!
 
+## Document
+
+[Enjoy](https://doc.ecommerceai.club/)
+
 ## Feedback
 
 What kind of features do you need?I will do it for u!
