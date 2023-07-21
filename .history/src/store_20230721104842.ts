@@ -151,7 +151,7 @@ export default function useStore() {
     const deleteChatSession = (target: Session) => {
         const sessions = chatSessions.filter((s) => s.id !== target.id)
         if (sessions.length === 0) {
-            sessions.push(createSession())
+            sessions.push(createSession("B"))
         }
         if (target.id === currentSession.id) {
             switchCurrentSession(sessions[0])

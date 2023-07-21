@@ -696,7 +696,7 @@ function Main() {
                     opacity: 0.6,
                   }}
                   orientation="vertical"
-                >
+                >asdas
                   <IconButton
                     onClick={() => messageListToTop()}
                     sx={{ visibility: atScrollTop ? "hidden" : "visible" }}
@@ -898,10 +898,15 @@ function MessageInput(props: {
               size="large"
               style={{ padding: "15px 16px" }}
             >
-              <SendIcon></SendIcon>
+              <SendIcon />
             </Button>
           </Grid>
         </Grid>
+        <Typography variant="caption" style={{ opacity: 0.3 }}>
+          {t(
+            "[Enter] send, [Shift+Enter] line break, [Ctrl+Enter] send without generating"
+          )}
+        </Typography>
       </Stack>
     </form>
   );

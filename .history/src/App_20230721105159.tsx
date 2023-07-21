@@ -438,7 +438,7 @@ function Main() {
                 }
                 component="div"
                 ref={sessionListRef}
-              >
+              >qdsaasdsad
                 <DndContext
                   modifiers={[restrictToVerticalAxis]}
                   sensors={sensors}
@@ -898,10 +898,15 @@ function MessageInput(props: {
               size="large"
               style={{ padding: "15px 16px" }}
             >
-              <SendIcon></SendIcon>
+              <SendIcon />
             </Button>
           </Grid>
         </Grid>
+        <Typography variant="caption" style={{ opacity: 0.3 }}>
+          {t(
+            "[Enter] send, [Shift+Enter] line break, [Ctrl+Enter] send without generating"
+          )}
+        </Typography>
       </Stack>
     </form>
   );
