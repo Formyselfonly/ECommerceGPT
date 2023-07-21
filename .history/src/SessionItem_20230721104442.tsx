@@ -60,8 +60,21 @@ export default function SessionItem(props: Props) {
                     {session.name}
                 </Typography>
             </ListItemText>
+            {
+                <IconButton onClick={handleClick} sx={{ color: 'primary.main' }} >
+                    {
+                        session.starred ? (
+                            <StarIcon fontSize="small" />
+                        ) : (
+                            hovering && (
+                                <MoreHorizOutlinedIcon fontSize="small" />
+                            )
+                        )
+                    }
+                </IconButton>
+            }
         </MenuItem>
-
+       
         </>
     )
 }

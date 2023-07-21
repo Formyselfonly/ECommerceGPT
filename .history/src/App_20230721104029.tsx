@@ -462,7 +462,21 @@ function Main() {
                             store.switchCurrentSession(session);
                             textareaRef?.current?.focus();
                           }}
-
+                          deleteMe={() => store.deleteChatSession(session)}
+                          copyMe={() => {
+                            const newSession = createSession(
+                              session.name + " copied"
+                            );
+                            newSession.messages = session.messages;
+                            store.createChatSession(newSession, ix);
+                          }}
+                          switchStarred={() => {
+                            store.updateChatSession({
+                              ...session,
+                              starred: !session.starred,
+                            });
+                          }}
+                          editMe={() => setConfigureChatConfig(session)}
                         />
                       </SortableItem>
                      

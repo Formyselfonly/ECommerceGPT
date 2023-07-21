@@ -60,6 +60,7 @@ export default function SessionItem(props: Props) {
                     {session.name}
                 </Typography>
             </ListItemText>
+
         </MenuItem>
 
         </>

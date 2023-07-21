@@ -60,8 +60,38 @@ export default function SessionItem(props: Props) {
                     {session.name}
                 </Typography>
             </ListItemText>
+            {
+                <IconButton onClick={handleClick} sx={{ color: 'primary.main' }} >
+                    {
+                        session.starred ? (
+                            <StarIcon fontSize="small" />
+                        ) : (
+                            hovering && (
+                                <MoreHorizOutlinedIcon fontSize="small" />
+                            )
+                        )
+                    }
+                </IconButton>
+            }
         </MenuItem>
+        <StyledMenu
+                MenuListProps={{
+                    'aria-labelledby': 'long-button',
+                }}
+                anchorEl={anchorEl}
+                open={open}
+                onClose={handleClose}
+            >
 
+
+ 
+
+
+                <Divider sx={{ my: 0.5 }} />
+
+
+
+            </StyledMenu>
         </>
     )
 }
