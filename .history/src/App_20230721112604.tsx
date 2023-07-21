@@ -421,7 +421,7 @@ function Main() {
                   EcommerceGPT
                 </Typography>
               </Toolbar>
-              <Divider />
+
               <MenuList
                 sx={{
                   width: "100%",
@@ -478,7 +478,7 @@ function Main() {
               <Divider />
 
               <MenuList>
-
+<Divider />
                 <MenuItem
                   onClick={() => {
                     setOpenSettingWindow(true);

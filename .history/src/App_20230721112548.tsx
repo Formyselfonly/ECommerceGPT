@@ -421,7 +421,7 @@ function Main() {
                   EcommerceGPT
                 </Typography>
               </Toolbar>
-              <Divider />
+
               <MenuList
                 sx={{
                   width: "100%",
@@ -476,7 +476,7 @@ function Main() {
               </MenuList>
 
               <Divider />
-
+              <Divider />
               <MenuList>
 
                 <MenuItem
