@@ -614,7 +614,15 @@ function Main() {
               >
                 <CleaningServicesIcon />
               </IconButton>
-
+              <IconButton
+                edge="start"
+                color="inherit"
+                aria-label="menu"
+                sx={{}}
+                onClick={() => saveSession(store.currentSession)}
+              >
+                <Save />
+              </IconButton>
             </Toolbar>
 
 

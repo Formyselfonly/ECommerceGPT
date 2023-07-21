@@ -224,7 +224,7 @@ export default function SettingWindow(props: Props) {
                     <AccordionSummary
                         aria-controls="panel1a-content"
                     >
-                        <Typography>{t('model')} & {t('token')} </Typography>
+                        <Typography>{t('model')} & {t('token') &setting} </Typography>
                     </AccordionSummary>
                     <AccordionDetails>
                         <Alert severity="warning">

@@ -162,21 +162,21 @@ export default function SettingWindow(props: Props) {
 
                 <FormGroup>
                     <FormControlLabel control={<Switch />}
-                        label={t('See Word Consume')}
+                        label={t('Word Consume')}
                         checked={settingsEdit.showWordCount}
                         onChange={(e, checked) => setSettingsEdit({ ...settingsEdit, showWordCount: checked })}
                     />
                 </FormGroup>
                 <FormGroup>
                     <FormControlLabel control={<Switch />}
-                        label={t('See Token Consume')}
+                        label={t('Token Consume')}
                         checked={settingsEdit.showTokenCount}
                         onChange={(e, checked) => setSettingsEdit({ ...settingsEdit, showTokenCount: checked })}
                     />
                 </FormGroup>
                 <Accordion>
                     <AccordionSummary aria-controls="panel1a-content">
-                        <Typography>{t('proxy setting')}</Typography>
+                        <Typography>{t('proxy')}</Typography>
                     </AccordionSummary>
                     <AccordionDetails>
                         <TextField

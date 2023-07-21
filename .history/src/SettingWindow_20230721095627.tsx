@@ -176,7 +176,7 @@ export default function SettingWindow(props: Props) {
                 </FormGroup>
                 <Accordion>
                     <AccordionSummary aria-controls="panel1a-content">
-                        <Typography>{t('proxy setting')}</Typography>
+                        <Typography>{t('proxy')}</Typography>
                     </AccordionSummary>
                     <AccordionDetails>
                         <TextField
