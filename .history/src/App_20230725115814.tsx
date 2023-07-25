@@ -898,7 +898,7 @@ function MessageInput(props: {
               size="large"
               style={{ padding: "15px 16px"}}
               >
-              <SendIcon style={{color:"grey"}}></SendIcon>
+              <SendIcon style={{color:"blue"}}></SendIcon>
             </Button>
           </Grid>
         </Grid>

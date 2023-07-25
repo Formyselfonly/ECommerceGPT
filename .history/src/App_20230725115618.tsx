@@ -894,11 +894,11 @@ function MessageInput(props: {
           <Grid item xs="auto">
               <Button
               type="submit"
-              variant="outlined"
-              size="large"
+              
+              size="mediam"
               style={{ padding: "15px 16px"}}
               >
-              <SendIcon style={{color:"grey"}}></SendIcon>
+              <SendIcon style={{color:"blue"}}></SendIcon>
             </Button>
           </Grid>
         </Grid>

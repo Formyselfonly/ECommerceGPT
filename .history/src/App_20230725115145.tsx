@@ -894,7 +894,7 @@ function MessageInput(props: {
           <Grid item xs="auto">
               <Button
               type="submit"
-              variant="outlined"
+              variant="contained"
               size="large"
               style={{ padding: "15px 16px"}}
               >
