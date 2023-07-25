@@ -7,9 +7,9 @@ import {
     ButtonGroup,
 } from '@mui/material';
 import Select, { SelectChangeEvent } from '@mui/material/Select';
-import Face5Icon from '@mui/icons-material/Face5';
-import Face2Icon from '@mui/icons-material/Face2';
-import SettingsApplicationsIcon from '@mui/icons-material/SettingsApplications';
+import PersonIcon from '@mui/icons-material/Person';
+import AssistantIcon from '@mui/icons-material/Assistant';
+import SettingsIcon from '@mui/icons-material/Settings';
 import MarkdownIt from 'markdown-it'
 import mdKatex from '@traptitech/markdown-it-katex'
 import hljs from 'highlight.js'
@@ -149,22 +149,22 @@ function _Block(props: Props) {
                                 id={msg.id + 'select'}
                             >
                                 <MenuItem value={OpenAIRoleEnum.System}>
-                                    <Avatar ><SettingsApplicationsIcon /></Avatar>
+                                    <Avatar ><SettingsIcon /></Avatar>
                                 </MenuItem>
                                 <MenuItem value={OpenAIRoleEnum.User}>
-                                    <Avatar><Face5Icon /></Avatar>
+                                    <Avatar><PersonIcon /></Avatar>
                                 </MenuItem>
                                 <MenuItem value={OpenAIRoleEnum.Assistant}>
-                                    <Avatar><Face2Icon /></Avatar>
+                                    <Avatar><AssistantIcon /></Avatar>
                                 </MenuItem>
                             </Select>
                         ) : (
                             <Box sx={{ marginTop: '8px' }}>
                                 {
                                     {
-                                        assistant: <Avatar><Face2Icon /></Avatar>,
-                                        user: <Avatar><Face5Icon /></Avatar>,
-                                        system: <Avatar><SettingsApplicationsIcon /></Avatar>
+                                        assistant: <Avatar><AssistantIcon /></Avatar>,
+                                        user: <Avatar><PersonIcon /></Avatar>,
+                                        system: <Avatar>1<SettingsIcon /></Avatar>
                                     }[msg.role]
                                 }
                             </Box>

@@ -595,9 +595,9 @@ function Main() {
 
 
                 <div>
-                <Button href="https://doc.ecommerceai.club/" target="_blank" style={{color:'rgb(25, 118, 210)',fontSize:'15px',marginRight:'20px'}}>ECommerceGPT Tutorial</Button>
-              <Button href="https://learnprompting.org/docs/intro" target="_blank" style={{color:'rgb(25, 118, 210)',fontSize:'15px',marginRight:'20px'}}>Prompt Beginner Tutorial</Button>
-              <Button href="https://www.learnprompt.org/chat-gpt-prompts-for-business/" target="_blank" style={{color:'rgb(25, 118, 210)',fontSize:'15px',marginRight:'20px'}}>Prompt For Business</Button>
+                <Button href="https://doc.ecommerceai.club/" target="_blank" style={{color:'rgb(25, 118, 210)',fontSize:'16px',marginRight:'20px'}}>ECommerceGPT Tutorial</Button>
+              <Button href="https://learnprompting.org/docs/intro" target="_blank" style={{color:'rgb(25, 118, 210)',fontSize:'16px',marginRight:'20px'}}>Prompt Beginner Tutorial</Button>
+              <Button href="https://www.learnprompt.org/chat-gpt-prompts-for-business/" target="_blank" style={{color:'rgb(25, 118, 210)',fontSize:'16px',marginRight:'20px'}}>Prompt For Business</Button>
               
                 </div>
 
