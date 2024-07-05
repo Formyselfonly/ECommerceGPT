@@ -10,7 +10,7 @@ I will give u some template in my link tutorial,and all you need to do is use it
 
 ## How to use?
 
-1. [Click it to ECommerce](http://web.ecommerceai.club/)
+1. [Click it to ECommerce](https://web.ecommercegpt.cn/)
 
 2. Open settings
 
