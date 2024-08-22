@@ -1,4 +1,4 @@
-## This is [ECommerceGPT](http://web.ecommerceai.club/) for u!
+## This is [ECommerceGPT](https://web.ecommercegpt.cn/) for u!
 
 This is the beautiful Ecommerce-GPT!
 
@@ -34,7 +34,7 @@ I will give u some template in my link tutorial,and all you need to do is use it
 
 ## Document
 
-[Enjoy](https://doc.ecommerceai.club/)
+[Enjoy](https://doc.ecommercegpt.cn/)
 
 ## Feedback
 

@@ -131,10 +131,10 @@ export default function useStore() {
     }
 
     const [chatSessions, _setChatSessions] = useState<Session[]>([
-    createSession("YouTubeGPT","You are my Youtube ECommerce assistant ChatGPT!Preferably answer using markdown or tables","Input your OPENAI_API_KEY in Option to use,Click these short link to know how to easily use this amazing YoutubeGPT:https://doc.ecommerceai.club/youtubegpt"),
-    createSession("TikTokGPT","You are my TitTok ECommerce assistant ChatGPT!Preferably answer using markdown or tables","Input your OPENAI_API_KEY in Option to use,Click these short link to know how to easily use this amazing TikTokGPT:https://doc.ecommerceai.club/tiktokgpt"),
-    createSession("AmazonGPT","You are my Amazon ECommerce assistant ChatGPT!Preferably answer using markdown or tables","Input your OPENAI_API_KEY in Option to use,than Click these short link to know how to easily use this amazing AmazonGPT:https://doc.ecommerceai.club/amazongpt"),
-    createSession("ShopeeGPT","You are my Shopee ECommerce assistant ChatGPT!Preferably answer using markdown or tables","Input your OPENAI_API_KEY in Option to use,Click these short link to know how to easily use this amazing ShopeeGPT:https://doc.ecommerceai.club/shopeegpt"),
+    createSession("YouTubeGPT","You are my Youtube ECommerce assistant ChatGPT!Preferably answer using markdown or tables","Input your OPENAI_API_KEY in Option to use,Click these short link to know how to easily use this amazing YoutubeGPT:https://doc.ecommercegpt.cn/youtubegpt"),
+    createSession("TikTokGPT","You are my TitTok ECommerce assistant ChatGPT!Preferably answer using markdown or tables","Input your OPENAI_API_KEY in Option to use,Click these short link to know how to easily use this amazing TikTokGPT:https://doc.ecommercegpt.cn/tiktokgpt"),
+    createSession("AmazonGPT","You are my Amazon ECommerce assistant ChatGPT!Preferably answer using markdown or tables","Input your OPENAI_API_KEY in Option to use,than Click these short link to know how to easily use this amazing AmazonGPT:https://doc.ecommercegpt.cn/amazongpt"),
+    createSession("ShopeeGPT","You are my Shopee ECommerce assistant ChatGPT!Preferably answer using markdown or tables","Input your OPENAI_API_KEY in Option to use,Click these short link to know how to easily use this amazing ShopeeGPT:https://doc.ecommercegpt.cn/shopeegpt"),
     createSession("DefaultGPT","Hello,I'm ChatGPT,what can i doing for u?Preferably answer using markdown or tables","Input your OPENAI_API_KEY in Option to use,Here is the Github Project of ECommerce:https://github.com/Formyselfonly/ECommerce-GPT")])
     const [currentSession, switchCurrentSession] = useState<Session>(chatSessions[0])
     useEffect(() => {
