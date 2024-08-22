@@ -1,6 +1,21 @@
+## What is ECommerceGPT?
+
+### English Introduction
+
+This is the powerful Ecommerce-GPT, leveraging AI to empower your eCommerce applications,to make more money efficiently!
+
+Due to cost considerations, this website is a basic prototype version without the integration of a knowledge base or more commercial features. Customization is available if needed.
+Contact if need:z1597006376@gmail.com
+
+### 中文介绍
+
+This is ECommerce-GPT.基于ChatBox打造的电商效率工具,嵌入了电商相关知识库(出于维护成本原因,知识库不再支持,如有需要可定制),网站提供一站式Prompt教程和现成Prompt工具
+
+出于成本维护考虑,本网站是一个基础原型版本,未加入知识库等更加商业化的功能,如需要可定制,请联系vx:HappyZ969
+
 ## This is [ECommerceGPT](https://web.ecommercegpt.cn/) for u!
 
-This is the beautiful Ecommerce-GPT!
+
 
 ![image-20230719122756004](./index.png)
 
